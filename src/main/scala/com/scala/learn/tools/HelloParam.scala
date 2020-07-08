@@ -2,6 +2,21 @@ package com.scala.learn.tools
 
 import org.apache.spark.sql.SparkSession
 
+import org.apache.spark.sql.util._
+import org.apache.spark.sql.types
+import org.apache.spark.sql.test._
+import org.apache.spark.sql.streaming._
+import org.apache.spark.sql.sources._
+import org.apache.spark.sql.jdbc._
+import org.apache.spark.sql.internal._
+import org.apache.spark.sql.hive._
+import org.apache.spark.sql.expressions._
+import org.apache.spark.sql.execution._
+import org.apache.spark.sql.catalyst._
+import org.apache.spark.sql.catalog._
+import org.apache.spark.sql.api._
+import org.apache.spark.sql.functions
+
 /**
   * Create by huangxuanfeng on 2020/5/25 下午6:34
   */
